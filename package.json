@@ -17,6 +17,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "eslint": "^8.40.0",
     "gh-pages": "^5.0.0"
   }
 }
