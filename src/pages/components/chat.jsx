@@ -1,8 +1,5 @@
 import { useState } from 'react';
 import styles from './style.module.css';
-//79125431028-1532715878
-//1101822472
-//c61de01e37ce4fe7bcbc0b12600aef4b09db5dc001d84416bf
 export default function Chat({ instance, token }) {
   const [textMessage, setTextMessage] = useState();
   const [phoneNumber, setPhoneNumber] = useState();
