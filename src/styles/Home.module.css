@@ -107,6 +107,18 @@
 .logo {
   position: relative;
 }
+
+.row {
+  display: flex;
+}
+.row__spacebetween {
+  display: flex;
+  justify-content: space-between;
+}
+.enter {
+  display: flex;
+  justify-content: space-around;
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
